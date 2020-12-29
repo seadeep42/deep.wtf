@@ -1,22 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
+import "../components/main.css";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+    <p className="mainContent">
+      Hi there,<br />
+      I don't know how you reached here but sorry to disappoint you there isn't much going on at this site.<br />
+      I bought the domain and wanted to do a lot of things but didn't find time for it.<br/>
+      So until then, imagine a cool background, fancy animations and a blog with lots of technical jargon.<br />
+      In the meantime if you want to reach me, here are the links:<br />
+      <a href="https://github.com/chaitanya-deep" target="_blank" rel="noreferrer noopener">Github</a><br />
+      <a href="https://www.linkedin.com/in/chdeep/" target="_blank" rel="noreferrer noopener">LinkedIn</a><br />
+      <a href="https://twitter.com/seadeep24" target="_blank" rel="noreferrer noopener">Twitter</a>
+
+      <br /><br />
+      And this is the thing I'm busy with these days:<br />
+      <a href="https://www.euclidxr.com/">Euclid</a>
+    </p>
+  </>
 )
 
 export default IndexPage
