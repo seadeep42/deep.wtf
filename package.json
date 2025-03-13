@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "deep.wtf",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal website code",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "C Deep",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "vite": "^3.2.4"
@@ -16,7 +16,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build --config vite.config.js",
     "start": "vite --host --port=3000 .",
     "deploy": "gh-pages -d dist",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
